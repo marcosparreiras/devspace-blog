@@ -1,10 +1,12 @@
 // Components
 import Layout from '@/components/Layout';
 
-export default function HomePage() {
+function BlogPage() {
     return (
         <Layout>
-            <h1>Hello world</h1>
+            <h1>Blog Page</h1>
         </Layout>
     );
 }
+
+export default BlogPage;
