@@ -1,6 +1,7 @@
 import Post from './Post';
 
 function SearchResults({ results }) {
+    if (results.length === 0) return <></>;
     return (
         <div
             className='absolute top-20 right-0 md:right-10 z-10
