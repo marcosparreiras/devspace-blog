@@ -13,7 +13,7 @@ function postData() {
         const { data: frontmatter } = matter(markdownWithMeta);
         return { frontmatter, slug };
     });
-    return `export const post = ${JSON.stringify(posts)}`;
+    return `export const posts = ${JSON.stringify(posts)}`;
 }
 
 try {
