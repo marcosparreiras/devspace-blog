@@ -12,6 +12,7 @@ function NotFoundPage() {
                     width={70}
                     height={70}
                     className='bg-gray-800 rounded-2xl'
+                    alt=''
                 />
                 <h1 className='text-6xl my-5'>Whoop's</h1>
                 <h2 className='text-4xl text-gray-400 mb-5'>
